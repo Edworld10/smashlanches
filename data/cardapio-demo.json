@@ -1,0 +1,433 @@
+{
+  "categories": [
+    { "id": "simple", "name": "Linha Simple", "slug": "simple", "sortOrder": 1, "icon": "Beef" },
+    { "id": "special", "name": "Linha Special", "slug": "special", "sortOrder": 2, "icon": "Flame" },
+    { "id": "porcoes", "name": "Porções & Fritas", "slug": "porcoes", "sortOrder": 3, "icon": "Salad" },
+    { "id": "bebidas", "name": "Bebidas Geladas", "slug": "bebidas", "sortOrder": 4, "icon": "CupSoda" }
+  ],
+  "products": [
+    {
+      "id": "legend-simple-burger",
+      "name": "Legend Simple Burger",
+      "slug": "legend-simple-burger",
+      "description": "Pão brioche, smash burger gigante (120gr), muito queijo prato e molho exclusivo da Smash Legend.",
+      "price": 16.90,
+      "categoryId": "simple",
+      "image": "/images/products/simple-burger.jpg",
+      "badge": "SMASH 120GR",
+      "isAvailable": true,
+      "isFeatured": true,
+      "preparationTime": "15-20 min",
+      "ingredients": ["Pão Brioche Selado", "Smash Burger Gigante 120g", "Muito Queijo Prato", "Molho Exclusivo Smash Legend"],
+      "customizations": [
+        {
+          "id": "ponto-carne",
+          "name": "Ponto da Carne",
+          "type": "radio",
+          "required": true,
+          "items": [
+            { "id": "ao-ponto", "name": "Ao Ponto (Rosado e Suculento)", "price": 0, "isDefault": true },
+            { "id": "bem-passado", "name": "Bem Passado", "price": 0 },
+            { "id": "ponto-menos", "name": "Ao Ponto para Menos", "price": 0 }
+          ]
+        },
+        {
+          "id": "adicionais",
+          "name": "Turbine seu Smash Legend (Opcional)",
+          "type": "checkbox",
+          "items": [
+            { "id": "extra-bacon", "name": "Tiras de Bacon Crocante", "price": 5.00 },
+            { "id": "extra-cheddar", "name": "American Cheese Cheddar Duplo", "price": 5.00 },
+            { "id": "molho-extra", "name": "Molho Exclusivo Smash Legend Extra (Pote)", "price": 4.00 },
+            { "id": "picles-extra", "name": "Picles de Pepino Artesanal", "price": 3.50 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legend-big-chicken",
+      "name": "Legend Big Chicken",
+      "slug": "legend-big-chicken",
+      "description": "Pão brioche, cubos de frango (100gr), bacon, american cheese cheddar, alface e tomate e molho exclusivo da Smash Legend.",
+      "price": 14.90,
+      "categoryId": "simple",
+      "image": "/images/products/big-chicken.jpg",
+      "badge": "FRANGO & BACON",
+      "isAvailable": true,
+      "isFeatured": false,
+      "preparationTime": "15 min",
+      "ingredients": ["Pão Brioche", "Cubos de Frango 100g", "Bacon Crocante", "American Cheese Cheddar", "Alface Americana", "Tomate Fresco", "Molho Exclusivo Smash Legend"],
+      "customizations": [
+        {
+          "id": "adicionais",
+          "name": "Adicionais para seu Big Chicken",
+          "type": "checkbox",
+          "items": [
+            { "id": "extra-bacon", "name": "Dobro de Bacon", "price": 5.00 },
+            { "id": "extra-queijo", "name": "Cheddar Extra", "price": 5.00 },
+            { "id": "molho-extra", "name": "Molho Exclusivo Smash Legend Extra", "price": 4.00 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legend-onion",
+      "name": "Legend Onion",
+      "slug": "legend-onion",
+      "description": "Pão brioche, smash burger (120gr), cheddar, picles, cebola, alface, tomate e molho exclusivo da Smash Legend.",
+      "price": 17.90,
+      "categoryId": "simple",
+      "image": "/assets/aistudio/legend_onion_crop.jpg",
+      "badge": "FOTO DO CARDÁPIO",
+      "isAvailable": true,
+      "isFeatured": true,
+      "preparationTime": "15-20 min",
+      "ingredients": ["Pão Brioche", "Smash Burger 120g", "Cheddar Derretido", "Picles Agridoce", "Cebola Fatiada", "Alface", "Tomate", "Molho Exclusivo Smash Legend"],
+      "customizations": [
+        {
+          "id": "ponto-carne",
+          "name": "Ponto da Carne",
+          "type": "radio",
+          "required": true,
+          "items": [
+            { "id": "ao-ponto", "name": "Ao Ponto (Rosado e Suculento)", "price": 0, "isDefault": true },
+            { "id": "bem-passado", "name": "Bem Passado", "price": 0 }
+          ]
+        },
+        {
+          "id": "adicionais",
+          "name": "Adicionais Opcionais",
+          "type": "checkbox",
+          "items": [
+            { "id": "extra-bacon", "name": "Bacon Crocante", "price": 5.00 },
+            { "id": "extra-cheddar", "name": "American Cheese Cheddar", "price": 5.00 },
+            { "id": "molho-extra", "name": "Molho Especial da Casa Extra", "price": 4.00 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legend-bacon",
+      "name": "Legend Bacon",
+      "slug": "legend-bacon",
+      "description": "Pão brioche, smash burger gigante (120gr), queijo prato, bacon, alface e tomate fresquinhos e molho exclusivo da Smash Legend.",
+      "price": 19.90,
+      "categoryId": "simple",
+      "image": "/images/products/bacon-burger.jpg",
+      "badge": "SUPER BACON",
+      "isAvailable": true,
+      "isFeatured": true,
+      "preparationTime": "15-20 min",
+      "ingredients": ["Pão Brioche", "Smash Burger 120g", "Queijo Prato Fundido", "Bacon Crocante em Tiras", "Alface", "Tomate", "Molho Exclusivo Smash Legend"],
+      "customizations": [
+        {
+          "id": "ponto-carne",
+          "name": "Ponto da Carne",
+          "type": "radio",
+          "required": true,
+          "items": [
+            { "id": "ao-ponto", "name": "Ao Ponto", "price": 0, "isDefault": true },
+            { "id": "bem-passado", "name": "Bem Passado", "price": 0 }
+          ]
+        },
+        {
+          "id": "adicionais",
+          "name": "Turbine seu Burger",
+          "type": "checkbox",
+          "items": [
+            { "id": "dobro-bacon", "name": "Dobro de Bacon (+40g)", "price": 5.00 },
+            { "id": "extra-queijo", "name": "Cheddar American Cheese", "price": 5.00 },
+            { "id": "smash-extra", "name": "Carne Smash Extra (+120g)", "price": 10.00 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legend-double-cheddar",
+      "name": "Legend Double Cheddar",
+      "slug": "legend-double-cheddar",
+      "description": "Pão brioche, 2 smash burgers (240gr), cheddar, cheddar american cheese, molho acebolado e molho exclusivo da Smash Legend.",
+      "price": 25.90,
+      "categoryId": "special",
+      "image": "/assets/aistudio/legend_double_cheddar_crop.jpg",
+      "badge": "MAIS PEDIDO • 240GR",
+      "isAvailable": true,
+      "isFeatured": true,
+      "preparationTime": "18-22 min",
+      "ingredients": ["Pão Brioche Selado", "2x Smash Burgers (240g total)", "Cheddar Tradicional", "Cheddar American Cheese", "Molho Acebolado na Chapa", "Molho Exclusivo Smash Legend"],
+      "customizations": [
+        {
+          "id": "ponto-carne",
+          "name": "Ponto da Carne",
+          "type": "radio",
+          "required": true,
+          "items": [
+            { "id": "ao-ponto", "name": "Ao Ponto (Rosado e Suculento)", "price": 0, "isDefault": true },
+            { "id": "bem-passado", "name": "Bem Passado", "price": 0 }
+          ]
+        },
+        {
+          "id": "adicionais",
+          "name": "Turbine seu Double Cheddar",
+          "type": "checkbox",
+          "items": [
+            { "id": "extra-bacon", "name": "Tiras de Bacon Crocantes", "price": 5.00 },
+            { "id": "terceiro-smash", "name": "Mais 1 Smash Burger (+120g carne)", "price": 10.00 },
+            { "id": "picles", "name": "Picles Artesanal", "price": 3.50 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legend-supreme",
+      "name": "Legend Supreme",
+      "slug": "legend-supreme",
+      "description": "Pão australiano, 1 super hamburguer supreme (150gr), molho barbecue, muito queijo coalho, rapadura, picles e molho exclusivo da Smash Legend.",
+      "price": 29.90,
+      "categoryId": "special",
+      "image": "/images/products/supreme-burger.jpg",
+      "badge": "ESPECIAL DA CASA",
+      "isAvailable": true,
+      "isFeatured": true,
+      "preparationTime": "20 min",
+      "ingredients": ["Pão Australiano", "Super Hamburguer Supreme 150g", "Molho Barbecue", "Muito Queijo Coalho Tostado", "Toque de Rapadura", "Picles", "Molho Exclusivo Smash Legend"],
+      "customizations": [
+        {
+          "id": "ponto-carne",
+          "name": "Ponto da Carne",
+          "type": "radio",
+          "required": true,
+          "items": [
+            { "id": "ao-ponto", "name": "Ao Ponto", "price": 0, "isDefault": true },
+            { "id": "bem-passado", "name": "Bem Passado", "price": 0 }
+          ]
+        },
+        {
+          "id": "adicionais",
+          "name": "Adicionais Supreme",
+          "type": "checkbox",
+          "items": [
+            { "id": "extra-bacon", "name": "Bacon em Tiras", "price": 5.00 },
+            { "id": "extra-coalho", "name": "Queijo Coalho Extra Tostadinho", "price": 6.00 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legend-double-cheese",
+      "name": "Legend Double Cheese",
+      "slug": "legend-double-cheese",
+      "description": "Pão brioche, 2 smash burgers (240gr), queijo prato, american cheese cheddar, catupiry, alface e tomate e molho exclusivo da Smash Legend.",
+      "price": 30.90,
+      "categoryId": "special",
+      "image": "/assets/aistudio/double_cheese_1b6e0f59.jpg",
+      "badge": "CATUPIRY & CHEDDAR",
+      "isAvailable": true,
+      "isFeatured": true,
+      "preparationTime": "18-22 min",
+      "ingredients": ["Pão Brioche", "2x Smash Burgers (240g)", "Queijo Prato", "American Cheese Cheddar", "Catupiry Original", "Alface", "Tomate", "Molho Exclusivo Smash Legend"],
+      "customizations": [
+        {
+          "id": "ponto-carne",
+          "name": "Ponto da Carne",
+          "type": "radio",
+          "required": true,
+          "items": [
+            { "id": "ao-ponto", "name": "Ao Ponto", "price": 0, "isDefault": true },
+            { "id": "bem-passado", "name": "Bem Passado", "price": 0 }
+          ]
+        },
+        {
+          "id": "adicionais",
+          "name": "Adicionais",
+          "type": "checkbox",
+          "items": [
+            { "id": "extra-bacon", "name": "Bacon Crocante", "price": 5.00 },
+            { "id": "dobro-catupiry", "name": "Dobro de Catupiry", "price": 5.00 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legend-triple-bacon",
+      "name": "Legend Triple Bacon",
+      "slug": "legend-triple-bacon",
+      "description": "Pão brioche, 3 smash burger gigantes (360gr total), queijo prato, bacon, molho barbecue picante e o molho exclusivo da Smash Legend.",
+      "price": 37.90,
+      "categoryId": "special",
+      "image": "/images/products/triple-bacon.jpg",
+      "badge": "MONSTRO • 360GR",
+      "isAvailable": true,
+      "isFeatured": true,
+      "preparationTime": "22 min",
+      "ingredients": ["Pão Brioche", "3x Smash Burgers Gigantes (360g)", "Queijo Prato em Todas as Camadas", "Muito Bacon", "Barbecue Picante", "Molho Exclusivo Smash Legend"],
+      "customizations": [
+        {
+          "id": "ponto-carne",
+          "name": "Ponto da Carne",
+          "type": "radio",
+          "required": true,
+          "items": [
+            { "id": "ao-ponto", "name": "Ao Ponto", "price": 0, "isDefault": true },
+            { "id": "bem-passado", "name": "Bem Passado", "price": 0 }
+          ]
+        },
+        {
+          "id": "adicionais",
+          "name": "Turbine o Monstro",
+          "type": "checkbox",
+          "items": [
+            { "id": "extra-cheddar", "name": "Cheddar American Cheese", "price": 5.00 },
+            { "id": "picles-extra", "name": "Picles Artesanal", "price": 3.50 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onion-rings-200g",
+      "name": "Onion Rings 200gr",
+      "slug": "onion-rings-200g",
+      "description": "Porção de 200 gramas de anéis de cebola dourados e crocantes empanados. Acompanha molho exclusivo Smash Legend.",
+      "price": 12.90,
+      "categoryId": "porcoes",
+      "image": "/assets/aistudio/orion_a78be1d2.jpg",
+      "isAvailable": true,
+      "isFeatured": false,
+      "preparationTime": "10-12 min"
+    },
+    {
+      "id": "fritas-400g",
+      "name": "Fritas 400gr",
+      "slug": "fritas-400g",
+      "description": "Porção generosa de 400 gramas de batatas fritas tradicionais palito, sequinhas e bem crocantes com pitada de sal fino.",
+      "price": 16.90,
+      "categoryId": "porcoes",
+      "image": "/images/products/fritas.jpg",
+      "isAvailable": true,
+      "isFeatured": false,
+      "preparationTime": "12-15 min"
+    },
+    {
+      "id": "fritas-cheddar-bacon-400g",
+      "name": "Fritas Cheddar e Bacon 400gr",
+      "slug": "fritas-cheddar-bacon-400g",
+      "description": "400 gramas de batatas fritas cobertas com farto creme cheddar derretido e chuva de cubinhos de bacon tostados na chapa.",
+      "price": 21.90,
+      "categoryId": "porcoes",
+      "image": "/assets/aistudio/fritas_banner_crop.jpg",
+      "badge": "FOTO DO BANNER",
+      "isAvailable": true,
+      "isFeatured": true,
+      "preparationTime": "15 min"
+    },
+    {
+      "id": "nuggets-200g",
+      "name": "Nuggets 200gr",
+      "slug": "nuggets-200g",
+      "description": "Porção com 200 gramas de nuggets de peito de frango crocantes, suculentos por dentro. Acompanha molho da casa.",
+      "price": 19.90,
+      "categoryId": "porcoes",
+      "image": "/images/products/nuggets.jpg",
+      "isAvailable": true,
+      "isFeatured": false,
+      "preparationTime": "12 min"
+    },
+    {
+      "id": "refrigerante-2-litros",
+      "name": "Refrigerante 2 Litros",
+      "slug": "refrigerante-2-litros",
+      "description": "Garrafa de 2 litros geladíssima.",
+      "price": 16.90,
+      "categoryId": "bebidas",
+      "image": "/assets/aistudio/coca_2_litros_43d849e0.png",
+      "isAvailable": true,
+      "isFeatured": false,
+      "customizations": [
+        {
+          "id": "sabor-refri-2l",
+          "name": "Escolha o Refrigerante 2L",
+          "type": "radio",
+          "required": true,
+          "items": [
+            { "id": "coca-2l", "name": "Coca-Cola 2L", "price": 0, "isDefault": true },
+            { "id": "guarana-2l", "name": "Guaraná Antarctica 2L", "price": 0 },
+            { "id": "fanta-2l", "name": "Fanta Laranja 2L", "price": 0 },
+            { "id": "dolly-2l", "name": "Dolly Guaraná 2L", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refrigerante-350ml",
+      "name": "Refrigerante 350ml",
+      "slug": "refrigerante-350ml",
+      "description": "Lata 350ml super gelada.",
+      "price": 6.00,
+      "categoryId": "bebidas",
+      "image": "/assets/aistudio/coca_lata_592bf5a7.jpg",
+      "isAvailable": true,
+      "isFeatured": false,
+      "customizations": [
+        {
+          "id": "sabor-lata",
+          "name": "Escolha o Refrigerante Lata",
+          "type": "radio",
+          "required": true,
+          "items": [
+            { "id": "coca-original", "name": "Coca-Cola Original 350ml", "price": 0, "isDefault": true },
+            { "id": "coca-zero", "name": "Coca-Cola Zero 350ml", "price": 0 },
+            { "id": "guarana-original", "name": "Guaraná Antarctica 350ml", "price": 0 },
+            { "id": "fanta-laranja", "name": "Fanta Laranja 350ml", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agua-500ml",
+      "name": "Água 500ml",
+      "slug": "agua-500ml",
+      "description": "Garrafa de água mineral 500ml gelada.",
+      "price": 4.00,
+      "categoryId": "bebidas",
+      "image": "/assets/aistudio/agua_500ml_16ef60f7.jpg",
+      "isAvailable": true,
+      "isFeatured": false,
+      "customizations": [
+        {
+          "id": "tipo-agua",
+          "name": "Tipo de Água",
+          "type": "radio",
+          "required": true,
+          "items": [
+            { "id": "sem-gas", "name": "Água Sem Gás 500ml", "price": 0, "isDefault": true },
+            { "id": "com-gas", "name": "Água Com Gás 500ml", "price": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "suco-del-valle-290ml",
+      "name": "Suco Del Valle 290ml",
+      "slug": "suco-del-valle-290ml",
+      "description": "Lata 290ml geladinha de suco Del Valle.",
+      "price": 6.00,
+      "categoryId": "bebidas",
+      "image": "/images/products/suco.jpg",
+      "isAvailable": true,
+      "isFeatured": false,
+      "customizations": [
+        {
+          "id": "sabor-suco",
+          "name": "Escolha o Sabor do Suco",
+          "type": "radio",
+          "required": true,
+          "items": [
+            { "id": "uva", "name": "Suco Del Valle Uva 290ml", "price": 0, "isDefault": true },
+            { "id": "pessego", "name": "Suco Del Valle Pêssego 290ml", "price": 0 },
+            { "id": "maracuja", "name": "Suco Del Valle Maracujá 290ml", "price": 0 }
+          ]
+        }
+      ]
+    }
+  ]
+}

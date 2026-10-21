@@ -1,0 +1,6 @@
+{
+  "name": "Brasa Burgers — Cardápio Digital & Delivery",
+  "description": "Cardápio digital oficial da Smash Legend Hamburgueria em Poá/SP com finalização de pedidos via WhatsApp.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

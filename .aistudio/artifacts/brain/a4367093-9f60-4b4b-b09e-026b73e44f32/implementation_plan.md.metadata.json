@@ -1,0 +1,6 @@
+{
+  "summary":  "Plano para correção do enquadramento, proporção e exibição de todas as imagens do cardápio da Smash Legend. Inclui ajuste inteligente de proporção e object-fit nos cards e modais para exibir garrafas inteiras (Coca 2L, Água) sem cortes sobre fundo escuro elegante, e centralização perfeita dos hambúrgueres e porções.",
+  "updatedAt":  "2026-10-21T00:28:19.039004761Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
