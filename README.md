@@ -1,4 +1,4 @@
-# BRASA BURGERS — Cardápio Digital & White Label Delivery
+# Smash Lengend — Cardápio Digital & White Label Delivery
 
 Sistema profissional de cardápio digital para hamburguerias com experiência Mobile First, carrinho reativo e finalização de pedidos via WhatsApp.
 
